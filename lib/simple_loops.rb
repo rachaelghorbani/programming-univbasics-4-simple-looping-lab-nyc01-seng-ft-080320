@@ -24,6 +24,4 @@ def output_array(array)
 end 
 
 
-def return_string_array(array)
-str_array = array.map(&:to_s)
-end 
+def 

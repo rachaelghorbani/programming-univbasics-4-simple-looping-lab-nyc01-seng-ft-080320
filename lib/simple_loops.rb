@@ -25,11 +25,5 @@ end
 
 
 def return_string_array(array)
-  counter = 0 
-  while counter < array.length do
-    string_array = []
-    string_item = array[counter].to_i
-    string_array.push(string_item)
-    counter +=1
-  end 
+str_array = array.map(&:to_s)
 end 
